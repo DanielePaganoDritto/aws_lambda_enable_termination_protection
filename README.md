@@ -43,4 +43,4 @@ To run the Lambda function you need ti create/use an IAM Role with the following
 
 &nbsp;
 
-** N.B The example ARN above refers to the Topic ARN for Cloud Team Notifications configured in the Core Services account. Change it accordingly when creating the Lambda function on any different account. **
+** N.B The example ARN above refers to the Topic ARN to use for sending the SNS notification. Change it accordingly when creating the Lambda function on any different account. **
