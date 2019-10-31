@@ -14,8 +14,8 @@ For this to work is necessary to pass the Topic Arn and the AWS Account descript
 &nbsp;
 
 {
-"TopicArn": "arn:aws:sns:eu-central-1:400952683601:Cloud",
-"AccountDescription": "OP-QA"
+"TopicArn": "arn:aws:sns:::",
+"AccountDescription": ""
 }
 
 &nbsp;
