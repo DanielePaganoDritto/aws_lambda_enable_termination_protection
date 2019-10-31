@@ -1,4 +1,4 @@
-# EAR-IT-Lambda-EnableTerminationProtection.py
+# Lambda-EnableTerminationProtection.py
 
 Python Lambda Function than scans all the resources inside an account enabling the Termination Protection option on the one for which it is disabled.
 
@@ -14,7 +14,7 @@ For this to work is necessary to pass the Topic Arn and the AWS Account descript
 &nbsp;
 
 {
-"TopicArn": "arn:aws:sns:::",
+"TopicArn": "arn:aws:sns::AccountNumber:TopicName",
 "AccountDescription": "Account_Name"
 }
 
