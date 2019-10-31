@@ -15,7 +15,7 @@ For this to work is necessary to pass the Topic Arn and the AWS Account descript
 
 {
 "TopicArn": "arn:aws:sns:::",
-"AccountDescription": ""
+"AccountDescription": "Account_Name"
 }
 
 &nbsp;
