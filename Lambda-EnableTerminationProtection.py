@@ -103,9 +103,9 @@ def lambda_handler(event, context):
             print("------") 
      
     #Prepare SNS message 
-    SFCAccount=event['AccountDescription'] 
-    message = ("Termination protection enabled for account: %s" % SFCAccount) 
-    subject = ("Lambda Function - Termination protection enabled for account %s" % SFCAccount) 
+    AWSAccount=event['AccountDescription'] 
+    message = ("Termination protection enabled for account: %s" % AWSAccount) 
+    subject = ("Lambda Function - Termination protection enabled for account %s" % AWSAccount) 
      
     #Send notification     
     sns.publish(TopicArn=event['TopicArn'], Message=(message), Subject=(subject)) 
